@@ -86,3 +86,8 @@ const photoes = images
   .join('');
 
 gallery.insertAdjacentHTML('beforeend', photoes);
+
+const book = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+});
