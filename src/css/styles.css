@@ -36,12 +36,12 @@ img {
 
 .gallery {
   margin: 0 auto;
-  padding: 15px 23px;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 18px;
   justify-content: center;
-  width: 950px;
+  width: 1000px;
 }
 
 .gallery-item {
